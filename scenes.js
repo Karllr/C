@@ -45,7 +45,7 @@ function game(){
     blocks[i].show();
     blocks[i].type2=1;
     }
-    textFont(font, 24);
+    //textFont(font, 24);
     fill(255);
     text("Just Fall, don't move", 4700, 450);
     pop();
@@ -85,7 +85,7 @@ function inTheDeep(){
     blocks[i].show();
     blocks[i].type2=2;
     }
-    textFont(font, 24);
+    //textFont(font, 24);
     fill(255);
     text("Just Fall, don't move", 4700, 450);
     pop();
@@ -115,7 +115,7 @@ function Ending(){
         antiRotSpeed+=TAU;
     }
     fill(255);
-    textFont(font, 24);
+    //textFont(font, 24);
     noStroke();
     text("Please reload the site to play again",width/3,height*5/6);
     endingX=lerp(endingX,0,0.05);
